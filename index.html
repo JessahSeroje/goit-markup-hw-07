@@ -582,7 +582,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer-block">
+          <!-- <div class="footer-block">
             <b class="footer-heading">Subscribe</b>
             <form
               class="footer-form"
@@ -600,12 +600,31 @@
                 />
               </label>
 
-              <button class="button subscribe" type="submit">
+              <button class="button subscribe-button" type="submit">
                 Subscribe
                 <svg class="paperplane" width="24" height="24">
                   <use href="./images/icons.svg#paperplane"></use>
                 </svg>
               </button>
+            </form>
+          </div> -->
+          <div class="footer-block">
+            <b class="footer-heading">Subscribe</b>
+            <form name="footer-subscribe-form">
+              <label class="footer-form"
+                ><input
+                  type="email"
+                  name="user-email"
+                  class="footer-field"
+                  placeholder="E-mail"
+                />
+                <button type="submit" class="button subscribe-button">
+                  Subscribe
+                  <svg class="button-icon" width="24" height="24">
+                    <use use href="./images/icons.svg#paperplane"></use>
+                  </svg>
+                </button>
+              </label>
             </form>
           </div>
         </div>

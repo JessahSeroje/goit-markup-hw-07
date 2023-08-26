@@ -81,9 +81,24 @@ body {
 .navigation,
 .nav-menu,
 .contacts-menu,
-.menu {
+.menu,
+.menu-toggle {
   display: flex;
   align-items: center;
+  padding: 8px 24px 8px 16px;
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* padding: 8px; */
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .logo-link {

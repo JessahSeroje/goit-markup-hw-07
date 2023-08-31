@@ -556,7 +556,7 @@ body {
 /* checked */
 .substrate {
   background-color: var(--whitecolor);
-  padding: 20px 24px;
+  padding: 32px 16px;
   border: 1px solid #eeeeee;
   border-top: 0;
 }
